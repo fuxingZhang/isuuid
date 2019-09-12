@@ -1,0 +1,23 @@
+{
+  "name": "@zhangfuxing/isuuid",
+  "version": "1.0.0",
+  "description": "is uuid",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuxingZhang/isuuid.git"
+  },
+  "keywords": [
+    "uuid",
+    "node"
+  ],
+  "author": "Zhang Fu Xing <502545703@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuxingZhang/isuuid/issues"
+  },
+  "homepage": "https://github.com/fuxingZhang/isuuid#readme"
+}
