@@ -1,8 +1,8 @@
 'use strict';
 
 /**
- * @param {String} str 
- * @param {Number} [version] optional, 1/2/3/4/5
+ * @param {String} str String to be verified
+ * @param {Number} [version] optional, the version of uuid, can be: 1, 2, 3, 4 or 5
  * 
  * @returns {Boolean}
  */
