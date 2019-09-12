@@ -11,8 +11,8 @@ $ npm i @zhangfuxing/isuuid
 
 ```  js
 /**
- * @param {String} str 
- * @param {Number} [version] optional, 1/2/3/4/5, v1: 1, v2: 2 ...
+ * @param {String} str String to be verified
+ * @param {Number} [version] optional, the version of uuid, can be: 1, 2, 3, 4 or 5
  * 
  * @returns {Boolean}
  */

@@ -1,6 +1,6 @@
 {
   "name": "@zhangfuxing/isuuid",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "is uuid",
   "main": "index.js",
   "scripts": {
