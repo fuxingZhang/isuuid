@@ -9,8 +9,6 @@
 function isuuid(str, version) {
   if (version === undefined) {
     version = '1-5';
-    // String(version).length !== 1 || !'12345'.includes(version)
-    // ![1, 2, 3, 4, 5, '1', '2', '3', '4', '5'].includes(version)
   } else if (!/^[1-5]{1}$/.test(version)) { 
     throw new Error('Invalid parameter');
   }
