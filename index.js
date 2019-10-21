@@ -9,7 +9,7 @@
 function isuuid(str, version) {
   if (version === undefined) {
     version = '1-5';
-  } else if (!'12345'.includes(version)) {
+  } else if (String(version).length !== 1 || !'12345'.includes(version)) {
     throw new Error('Invalid parameter');
   }
 
