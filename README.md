@@ -1,5 +1,5 @@
 # isuuid
-Uuid verification
+uuid verification
 
 ## Install
 
@@ -12,7 +12,7 @@ $ npm i @zhangfuxing/isuuid
 ```  js
 /**
  * @param {String} str String to be verified
- * @param {Number} [version] optional, the version of uuid, can be: 1, 2, 3, 4 or 5
+ * @param {Number | String} [version] optional, version of uuid, can be: 1, 2, 3, 4, 5, '1', '2', '3', '4', '5'
  * 
  * @returns {Boolean}
  */
