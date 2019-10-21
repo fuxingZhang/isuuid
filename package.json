@@ -4,7 +4,7 @@
   "description": "is uuid",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node ./test/test.js"
   },
   "repository": {
     "type": "git",
