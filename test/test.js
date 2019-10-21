@@ -1,4 +1,4 @@
-const isuuid = require('./index');
+const isuuid = require('../index');
 const str = '857b3f0a-a777-11e5-bf7f-feff819cdc9f';
 
 // is uuid
